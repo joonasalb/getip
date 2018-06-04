@@ -1,0 +1,176 @@
+/*<!-- // 
+
+* DEVELOPED BY: JONAS A. CONTACT -> twitter.com/JoonaasHD *
+
+// -->
+
+*/
+::-webkit-validation-bubble {}
+::-webkit-validation-bubble-message {}
+::-webkit-validation-bubble-arrow {}
+::-webkit-validation-bubble-arrow-clipper {}
+
+input:required:invalid {}
+input:required:valid {}
+
+	*,html,body {
+		margin: 0;
+		padding: 0;
+		background-image: url(./body3.png);
+		color: white;
+	}
+	section .failed {
+		position: relative;
+		margin-top: 20px;
+		color: red;
+		padding: 10px;
+		border: 1px solid #FFF;
+		width: 489px;
+		font-family: verdana,comic,sans-serif;
+	}
+	section {
+		position: relative;
+		margin-top: 165px;
+		margin-left: 31%;
+	}
+	section h3 {
+		padding-bottom: 10px;
+		font-family: verdana,ubuntu,trebuchet;
+		color: #FFF;
+	}
+	section .area-link {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	section .area-link input[type='url']{
+		width: 399px;
+		outline: none;
+		padding: 10px;
+		font-family: sans-serif,monospace,verdana;
+		font-size: 15px;
+		color: #078;
+		border: 1px double white;
+		border-radius: 1px;
+	}
+	section .area-link input[type='url']:active{
+		border:1px double red;
+	}
+	section .area-link input[type='submit']{
+		cursor: pointer;
+		color: #099;
+		padding: 10px;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 15px;
+		background: transparent;
+		border: 1px double #099;
+		outline: none;
+		border-radius: 1px;
+	}
+	section .area-link input[type='submit']:hover {
+		border:1px double #099;
+		background-color:#099 ;
+		color: #FFF;
+	}
+	section .area-code input[type='text']{
+		width: 25%;
+		outline:none;
+		padding: 10px;
+		font-family: sans-serif,monospace,verdana;
+		font-size: 15px;
+		color: #078;
+		border: 1px double white;
+	}
+	section .area-code input[type='text']:active {
+		border:1px double red;
+	}
+	section .area-code input[type='submit']{
+		cursor: pointer;
+		color: #099;
+		padding: 10px;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 15px;
+		background: transparent;
+		border: 1px double #099;
+		outline: none;
+		border-radius: 1px;
+	}
+	section .area-code input[type='submit']:hover {		
+		border:1px double #099;
+		background-color:#099 ;
+		color: #FFF;
+	}
+	section .area-code {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	section .info {
+		padding-top: 15px;
+		font-family: verdana,comic,tahoma;
+		font-size: 15px;
+		color:#2E8B57;
+	}
+	section .ok {
+		text-align: center;
+		position: relative;
+		margin-top: 10px;
+		border:1px solid green;
+		padding: 10px;
+		width: 489px;
+		font-size: ;
+		font-family: verdana,comic,tahoma;
+	}
+	section .ok a {
+		font-size: 15px;
+		font-family: verdana,comic;
+		color: #000080;
+	}
+	section .url {
+		padding: 10px;
+		border: 1px double #ddd;
+		width: 489px;
+		color: #FFF;
+		font-family: verdana,comic,sans-serif;
+	}
+	section .url a {
+		font-size: 15px;
+		font-family: verdana,comic;
+		color: #000080;
+	}
+	section .success {
+		color:green;
+		font-family: verdana,comic,sans-serif;
+	}
+	section .area-logar {
+		position: relative;
+		align:right;
+
+	}
+	section .area-logar span {
+		position: relative;
+		align:right;
+		margin-left: 350px;
+		font-family: verdana,comic,sans-serif;
+		font-size: 14px;
+		color: #FFD;
+	} 
+	section .area-logar span a {
+		padding:0px 5px 3px 5px;
+		color: #098;
+		font-size: 13px;
+		font-family: verdana,trebuchet;
+		font-weight: bold;
+		text-decoration: none;
+		border-bottom: 1px double #673;
+	}
+	section .area-logar span a:hover{
+		border-bottom: 1px double red;
+	} 
+	section span {
+		position: relative;
+		margin-left: 340px;
+		font-family: verdana,comic,sans-serif;
+		font-size: 14px;
+		color: #FFD;
+	}
